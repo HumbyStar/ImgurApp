@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C002E4729A6A4CE008DCB5E /* UserCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C002E4629A6A4CE008DCB5E /* UserCredentials.swift */; };
+		0C002E4929A6AB80008DCB5E /* UserCredentialService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C002E4829A6AB80008DCB5E /* UserCredentialService.swift */; };
+		0C002E4C29A6B843008DCB5E /* Dictionary + query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C002E4B29A6B843008DCB5E /* Dictionary + query.swift */; };
+		0C002E4F29A6BCAC008DCB5E /* ResponseAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C002E4E29A6BCAC008DCB5E /* ResponseAuthorization.swift */; };
+		0C002E5529A789C7008DCB5E /* ValidateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C002E5429A789C7008DCB5E /* ValidateApp.swift */; };
+		0C3B99DD29A3A6CB0032F512 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B99DC29A3A6CB0032F512 /* AppDelegate.swift */; };
+		0C3B99DF29A3A6CB0032F512 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B99DE29A3A6CB0032F512 /* SceneDelegate.swift */; };
+		0C3B99E129A3A6CB0032F512 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B99E029A3A6CB0032F512 /* ViewController.swift */; };
+		0C3B99E629A3A6CC0032F512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C3B99E529A3A6CC0032F512 /* Assets.xcassets */; };
+		0C3B99E929A3A6CC0032F512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3B99E729A3A6CC0032F512 /* LaunchScreen.storyboard */; };
+		0C3B99F329A3A8120032F512 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B99F229A3A8120032F512 /* API.swift */; };
+		0C3B99F529A3ACE20032F512 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B99F429A3ACE20032F512 /* APIService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C002E4629A6A4CE008DCB5E /* UserCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCredentials.swift; sourceTree = "<group>"; };
+		0C002E4829A6AB80008DCB5E /* UserCredentialService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCredentialService.swift; sourceTree = "<group>"; };
+		0C002E4B29A6B843008DCB5E /* Dictionary + query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary + query.swift"; sourceTree = "<group>"; };
+		0C002E4E29A6BCAC008DCB5E /* ResponseAuthorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseAuthorization.swift; sourceTree = "<group>"; };
+		0C002E5429A789C7008DCB5E /* ValidateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateApp.swift; sourceTree = "<group>"; };
+		0C3B99D929A3A6CB0032F512 /* Imgur App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Imgur App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C3B99DC29A3A6CB0032F512 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C3B99DE29A3A6CB0032F512 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0C3B99E029A3A6CB0032F512 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C3B99E529A3A6CC0032F512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C3B99E829A3A6CC0032F512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C3B99EA29A3A6CC0032F512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C3B99F229A3A8120032F512 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		0C3B99F429A3ACE20032F512 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C3B99D629A3A6CB0032F512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C002E4A29A6B820008DCB5E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0C002E4B29A6B843008DCB5E /* Dictionary + query.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0C002E4D29A6BCA3008DCB5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C002E4E29A6BCAC008DCB5E /* ResponseAuthorization.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C002E5229A789AA008DCB5E /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				0C002E5429A789C7008DCB5E /* ValidateApp.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		0C002E5329A789B4008DCB5E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0C3B99E029A3A6CB0032F512 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0C3B99D029A3A6CB0032F512 = {
+			isa = PBXGroup;
+			children = (
+				0C3B99DB29A3A6CB0032F512 /* Imgur App */,
+				0C3B99DA29A3A6CB0032F512 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C3B99DA29A3A6CB0032F512 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C3B99D929A3A6CB0032F512 /* Imgur App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C3B99DB29A3A6CB0032F512 /* Imgur App */ = {
+			isa = PBXGroup;
+			children = (
+				0C3B99F029A3A7530032F512 /* Resources */,
+				0C002E4D29A6BCA3008DCB5E /* Model */,
+				0C002E4A29A6B820008DCB5E /* Extensions */,
+				0C3B99F129A3A8050032F512 /* Service */,
+				0C002E5229A789AA008DCB5E /* Screen */,
+				0C002E5329A789B4008DCB5E /* ViewController */,
+				0C3B99EA29A3A6CC0032F512 /* Info.plist */,
+			);
+			path = "Imgur App";
+			sourceTree = "<group>";
+		};
+		0C3B99F029A3A7530032F512 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C3B99DC29A3A6CB0032F512 /* AppDelegate.swift */,
+				0C3B99DE29A3A6CB0032F512 /* SceneDelegate.swift */,
+				0C3B99E529A3A6CC0032F512 /* Assets.xcassets */,
+				0C3B99E729A3A6CC0032F512 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0C3B99F129A3A8050032F512 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0C002E4629A6A4CE008DCB5E /* UserCredentials.swift */,
+				0C002E4829A6AB80008DCB5E /* UserCredentialService.swift */,
+				0C3B99F229A3A8120032F512 /* API.swift */,
+				0C3B99F429A3ACE20032F512 /* APIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C3B99D829A3A6CB0032F512 /* Imgur App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C3B99ED29A3A6CC0032F512 /* Build configuration list for PBXNativeTarget "Imgur App" */;
+			buildPhases = (
+				0C3B99D529A3A6CB0032F512 /* Sources */,
+				0C3B99D629A3A6CB0032F512 /* Frameworks */,
+				0C3B99D729A3A6CB0032F512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Imgur App";
+			productName = "Imgur App";
+			productReference = 0C3B99D929A3A6CB0032F512 /* Imgur App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C3B99D129A3A6CB0032F512 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					0C3B99D829A3A6CB0032F512 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 0C3B99D429A3A6CB0032F512 /* Build configuration list for PBXProject "Imgur App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C3B99D029A3A6CB0032F512;
+			productRefGroup = 0C3B99DA29A3A6CB0032F512 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C3B99D829A3A6CB0032F512 /* Imgur App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C3B99D729A3A6CB0032F512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3B99E929A3A6CC0032F512 /* LaunchScreen.storyboard in Resources */,
+				0C3B99E629A3A6CC0032F512 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C3B99D529A3A6CB0032F512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C002E4729A6A4CE008DCB5E /* UserCredentials.swift in Sources */,
+				0C3B99E129A3A6CB0032F512 /* ViewController.swift in Sources */,
+				0C002E4C29A6B843008DCB5E /* Dictionary + query.swift in Sources */,
+				0C002E4929A6AB80008DCB5E /* UserCredentialService.swift in Sources */,
+				0C3B99F529A3ACE20032F512 /* APIService.swift in Sources */,
+				0C3B99DD29A3A6CB0032F512 /* AppDelegate.swift in Sources */,
+				0C002E5529A789C7008DCB5E /* ValidateApp.swift in Sources */,
+				0C002E4F29A6BCAC008DCB5E /* ResponseAuthorization.swift in Sources */,
+				0C3B99F329A3A8120032F512 /* API.swift in Sources */,
+				0C3B99DF29A3A6CB0032F512 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0C3B99E729A3A6CC0032F512 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C3B99E829A3A6CC0032F512 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C3B99EB29A3A6CC0032F512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C3B99EC29A3A6CC0032F512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C3B99EE29A3A6CC0032F512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Imgur App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.humbertogrt.Imgur-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C3B99EF29A3A6CC0032F512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Imgur App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.humbertogrt.Imgur-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C3B99D429A3A6CB0032F512 /* Build configuration list for PBXProject "Imgur App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C3B99EB29A3A6CC0032F512 /* Debug */,
+				0C3B99EC29A3A6CC0032F512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C3B99ED29A3A6CC0032F512 /* Build configuration list for PBXNativeTarget "Imgur App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C3B99EE29A3A6CC0032F512 /* Debug */,
+				0C3B99EF29A3A6CC0032F512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C3B99D129A3A6CB0032F512 /* Project object */;
+}
